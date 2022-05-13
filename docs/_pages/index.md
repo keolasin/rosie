@@ -1,17 +1,21 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: "Rosie the Health Manager"
+title: "Rosie"
 layout: home
 permalink: /
 ---
 
-## Rosie
+<img src="/assets/svg/rosie_hello.svg" width = "200px">
 
-### Welcome
+## Welcome
 
 Hello! My name is Rosie. I'm a health manager, and my goal is to make health simple.
 
-### Info
+## Info
 
-I make it easier to keep all your health information in one place.
+I make it easier to keep a patients health information in one place.
+
+## Principles
+
+I believe in Patient Data Ownership, so that patients are in the driver's seat of their health.
