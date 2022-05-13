@@ -4,6 +4,14 @@ layout: page
 title: About
 ---
 
+## Contributors
+
+GoInvo, MITRE
+
+Copyright MITRE, 2022
+
+Apache 2.0 License
+
 ## Rosie the Health Manager
 
 How Rosie works:
