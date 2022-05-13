@@ -27,6 +27,17 @@ baseurl: / # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Open-Health-Manager
 
+author:
+  name: MITRE, GoInvo
+  email: Rosie@mitre.org
+
+include:
+ - _pages
+
+header_pages:
+ - _pages/about.md
+ - _pages/donate.md
+
 # Build settings
 theme: minima
 plugins:
