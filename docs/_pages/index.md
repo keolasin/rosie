@@ -5,14 +5,19 @@ title: "Rosie"
 layout: home
 permalink: /
 ---
+<section class= "image-container">
+<img src="/assets/svg/rosie_hello.svg"
+     alt="Rosie waving"
+     width= "200px">
+</section>
 
-<img src="/assets/svg/rosie_hello.svg" width = "200px">
-
-## Welcome
+## Welcome!
 
 Hello! My name is Rosie. I'm a health manager, and my goal is to make health simple.
 
-How Rosie works:
+## How Rosie works
+
+Rosie is built on a few fundamental principles:
 
 - Rosie makes your health record.
 - Rosie highlights missing info.
@@ -22,14 +27,13 @@ How Rosie works:
 - Rosie gets better all the time.
 - Rosie nudges you to drive your primary self-care.
 
-## Info
+### Info
 
 I make it easier to keep a patients health information in one place.
 
-## Principles
+### Principles
 
 I believe in Patient Data Ownership, so that patients are in the driver's seat of their health.
-
 
 ## What is Rosie?
 
