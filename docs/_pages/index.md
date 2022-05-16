@@ -5,15 +5,11 @@ title: "Rosie"
 layout: home
 permalink: /
 ---
-<section class= "image-container">
+<section class= "chat-container">
 <img src="/assets/svg/rosie_hello.svg"
-     alt="Rosie waving"
-     width= "200px">
+     alt="Rosie waving">
+     <h2 class='chat-text'>Welcome, my name is Rosie!</h2>
 </section>
-
-## Welcome!
-
-Hello! My name is Rosie. I'm a health manager, and my goal is to make health simple.
 
 ## How Rosie works
 

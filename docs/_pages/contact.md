@@ -6,4 +6,4 @@ title: Contact
 
 ## Contact
 
-(email)[rosie@healthinfo.org]
+[rosie@healthinfo.org](mailto:rosie@healthinfo.org)
