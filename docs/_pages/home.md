@@ -5,11 +5,6 @@ title: "Rosie"
 layout: home
 permalink: /
 ---
-<section class= "chat-container">
-<img src="/assets/svg/rosie_hello.svg"
-     alt="Rosie waving">
-     <h2 class='chat-text'>Welcome, my name is Rosie!</h2>
-</section>
 
 ## How Rosie works
 
