@@ -2,60 +2,69 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<article class="wrapper container" id="welcome">
+  <h1>Rosie the Health Manager</h1>
+  <p>puts you in the driver's seat for your own health</p>
+  <img src="/assets/background.png" id="mast"/>
+  <p>Rosie is a free personal health record (PHR), designed and built to safely keep all of an individual’s health records in one place.</p>
+ id="mast"</article>
 
-  {{ content }}
+<article class="container" id="how">
+  <div class="wrapper">
+    <h2>How Rosie Works</h2>
+    <p>Rosie gets better all the time [we're updating it often.]</p>
+    <section class="carousel">
+    </div>
+  </article>
+
+<article class="container" id="four-elements">
+  <h2>Rosie's Four Elements</h2>
+  <section class="quad-container">
+    <section class="quad-item">
+      <h3>Patient Data Use Agreement (PDUA)</h3>
+      <p>A contract between the patient and a service provider that states in clear, simple language or graphics, how data will be used and accessed. Patients need to own their health data. The PDUA’s contract assigns data ownership to the patient, and particular access rights to the patient-consented service.</p>
+    </section>
+    <section class="quad-item">
+      <h3>Patient Data Manager (PDM)</h3>
+      <p>Is a digital service working on behalf of a patient to continually find, retrieve, add, edit, correct, and normalize data and construct a person's longitudinal health record. Because a patient's data comes from many places, the PDM takes it and puts it into the same place (one, comprehensive health record).</p>
+    </section>
+    <section class="quad-item">
+      <h3>Standard Patient Health Record (SPHR)</h3>
+      <p>A digital "twin" of the patient in code, based on a nationally shared and consistent definition of health data (structure, terminology, content). This specification contains definitions for all critical patient information such as ID, emergency care, primary care, oncology care, with future extensions for human biology, behavior, environment, and social circumstances.</p>
+    </section>
+    <section class="quad-item">
+      <h3>Health Manager (HM)</h3>
+      <p>Is the front-end service on your mobile phone (or other silicon) that guides you to take actions for your health. Tailored education, involving family and clinical teams, and giving daily health ownership to the individual. (And an extra sentence or two here so that we can give this section of the page more balance next to SPHR’s blurb)</p>
+    </section>
+  </section>
+</article>
+
+<article class="container" id="journey-map">
+
+</article>
+
+<article class="container" id="why">
+  <h2 class="text">Why is Rosie Free?</h2>
+  <p class="text">This project is supported by the Open Health Service department at the MITRE Corporation, which maintains the software and licenses the code and design under an open source license. This project will always be open source.
+
+  We need your investment. MITRE is investing $800k in 2022. The project needs an additional $250K in community investments in Rosie (a tax deductible donation).
+    
+  The Rosie software is licensed under the Apache 2 license. This project is supported by the Open Health Services department at the MITRE Corporation, which maintains the software and licenses it under an open source license. This project will always be open source.
+  </p>
+  <img id="why-img" src="/assets/sources-of-your-data.png" alt="Image of the patient data manager system"/>
+</article>
+
+<article class="container" id="contributors">
+  <h2>Contributors</h2>
+    <section class="text-box">
+      <p><em>MITRE</em> manages and funds the project, drives system engineering, and builds the patient data manager.</p>
+      <p><em>GoInvo</em> supports the project through design, planning, and healthcare design expertise.</p>
+    </section>
+</article>
 
 
-  {% if site.paginate %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
-
-
-  {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
-
-  {%- endif -%}
-
-</div>
+<article class="container" id="support">
+  <h2>Want to support the project?</h2>
+  <p>Fund the project or add to the code.</p>
+  <a id="donate">Donate here</a>
+</article>
